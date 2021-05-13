@@ -1,5 +1,5 @@
 /* maybe add border around the pic */
-#bg_abt_me{
+#abt-me-main{
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
     background-image: url(../../pictures/painting_bg.png);
     background-size:cover;
@@ -8,13 +8,14 @@
     -o-background-size: cover;
   
     height: 100vh;
+    width: 100vw;
     max-width: 100vw;
 
-    padding-top: 164px;
-}
-
-#abt_desc_col{
-    padding-top: 24px;
+    padding-top: 10vh;
+    /**/
+    /* overflow: scroll; */
+    box-sizing: border-box;
+    color: white;
 }
 
 .icon-size{
