@@ -4,7 +4,7 @@ import './styles/AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <div id="abt-me-main" className="container">
+        <div id="abt-me-main" className="container-fluid">
             <div className="row justify-content-center">
                 {/* <div className="col-md-2"></div> */}
                 <div className="col-md-5 col-sm-12">
@@ -38,7 +38,7 @@ const AboutMe = () => {
                     {/* </div> */}
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                    <img src={me} className="rounded-circle" alt="me" style={{maxWidth:'50%', height:'auto', padding:'30px'}}/>
+                    <img src={me} className="rounded-circle" alt="me" style={{width:'50%', maxWidth:'50%', height:'auto', padding:'15px'}}/>
                 </div>
                 {/* <div className="col-md-2"></div> */}
             </div>
