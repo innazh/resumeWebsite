@@ -1,0 +1,8 @@
+.headers{
+    font-size: 60px;
+}
+
+.overflows{
+    overflow-y: auto;
+    overflow-x: hidden;
+}

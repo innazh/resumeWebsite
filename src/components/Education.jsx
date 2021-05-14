@@ -6,25 +6,41 @@ const Education = () => {
         <div id="education-main" className="container">
             <div className="row">
                 <div className="col">
+
                     <div className="row">
-                        <h2 style={{ fontSize: '60px' }}>Education</h2>
+                        <div className="col">
+                            <h2 style={{ fontSize: '60px' }}>Education</h2>
+                        </div>
                     </div>
-                    {/* <div className="col-md-6"> */}
-                        <div className="row">
-                            <div className="card mb-3" style={{ maxWidth: '40px;', width: '500px'}}>
-                                <div className="row g-0">
-                                    <div className="col-md-4">
-                                        <img src={senecaLogo} className="card-img" alt="..." />
+
+                    <div className="row justify-content-center" style={{marginTop:'50px'}}>
+                        <div className="col-md-7">
+                            <div id="seneca-card" className="card mb-3 shadow">
+                                <div className="row g-0" style={{ padding: '10px' }}>
+
+                                    <div className="col-md-2">
+                                        <img src={senecaLogo} className="card-img border border-danger" style={{ padding: '10px', width:'100%' }} alt="seneca" />
                                     </div>
-                                    <div className="col-md-8">
+
+                                    <div className="col-md-10">
                                         <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            <h5 className="card-title">Honours Bachelor of Technology - Software Development</h5>
+                                            <h6 class="card-subtitle mb-2">Seneca College - Toronto, ON</h6>
+                                            <h6 class="card-subtitle mb-2 text-muted">2016-2020</h6>
+
+                                            <div className="row" style={{marginTop:'20px'}}>
+                                                <div className="col">
+                                                    <p className="card-text">
+                                                    <b>Awards:</b> Bachelor of Tech Soft Dev Scholarship (x4), President's Honour list<br/>
+                                                    <b>GPA:</b> 3.8 / 4.0</p>
+
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
-                            {/* </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
