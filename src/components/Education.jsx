@@ -14,8 +14,8 @@ const Education = () => {
                     </div>
 
                     <div className="row justify-content-center" style={{marginTop:'50px'}}>
-                        <div className="col-md-7">
-                            <div id="seneca-card" className="card mb-3 shadow">
+                        <div className="col-md-6">
+                            <div id="seneca-card" className="card mb-3 shadow border-5">
                                 <div className="row g-0" style={{ padding: '10px' }}>
 
                                     <div className="col-md-2">
@@ -25,8 +25,8 @@ const Education = () => {
                                     <div className="col-md-10">
                                         <div className="card-body">
                                             <h5 className="card-title">Honours Bachelor of Technology - Software Development</h5>
-                                            <h6 class="card-subtitle mb-2">Seneca College - Toronto, ON</h6>
-                                            <h6 class="card-subtitle mb-2 text-muted">2016-2020</h6>
+                                            <h6 className="card-subtitle mb-2">Seneca College - Toronto, ON</h6>
+                                            <h6 className="card-subtitle mb-2 text-muted">2016-2020</h6>
 
                                             <div className="row" style={{marginTop:'20px'}}>
                                                 <div className="col">
