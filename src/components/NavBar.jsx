@@ -17,20 +17,20 @@ const NavBar = () => {
               <a className="nav-link" href="#exp-main">Experience</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Hackathons</a>
+              <a className="nav-link" href="#construction">Hackathons</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#construction">Contact</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="#construction" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Projects
           </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Action</a></li>
-                <li><a className="dropdown-item" href="#">Another action</a></li>
+                <li><a className="dropdown-item" href="#construction">Project 1</a></li>
+                <li><a className="dropdown-item" href="#construction">2</a></li>
                 {/* <li><hr className="dropdown-divider"/></li> */}
-                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                <li><a className="dropdown-item" href="#construction">3</a></li>
               </ul>
             </li>
           </ul>

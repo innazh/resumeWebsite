@@ -13,7 +13,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div className="row justify-content-center" style={{marginTop:'50px'}}>
+                    <div className="row justify-content-center" style={{marginTop:'50px', marginBottom:'150px'}}>
                         <div className="col-md-6">
                             <div id="seneca-card" className="card mb-3 shadow border-5">
                                 <div className="row g-0" style={{ padding: '10px' }}>
