@@ -1,4 +1,16 @@
 nav{
     background-color: #6f42c1;
-    /* margin-bottom: 64px; */
+}
+
+a.nav-link:hover{
+    color: orange !important;
+    /* color: #feae51ff !important; */
+    /* color: #ff6f61ff !important; */
+}
+
+a.navbar-brand:hover{
+    color: orange !important;
+
+    /* color: #feae51ff !important; */
+    /* color: #ff6f61ff !important; */
 }

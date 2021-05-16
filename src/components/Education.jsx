@@ -3,7 +3,7 @@ import senecaLogo from '../pictures/seneca_logo.png'
 
 const Education = () => {
     return (
-        <div id="education-main" className="container">
+        <div id="education" className="container">
             <div className="row">
                 <div className="col">
 

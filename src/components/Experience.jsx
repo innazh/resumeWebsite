@@ -5,7 +5,7 @@ import dma from '../pictures/dma.png'
 
 const Experience = () => {
     return (
-        <div id="exp-main" className="container">
+        <div id="experience" className="container">
             <div className="row">
                 <div className="col">
                     <h2 style={{ fontSize: '60px' }}>Experience</h2>
@@ -25,7 +25,7 @@ const Experience = () => {
 
                                                                     <div className="row">
                                                                         <div className="col-md-2 logo-container">
-                                                                            <img className="card-img company-logo" src={morno} />
+                                                                            <img className="card-img company-logo" alt="Morneau Shepell" src={morno} />
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">
@@ -66,7 +66,7 @@ const Experience = () => {
 
                                                                     <div className="row">
                                                                         <div className="col-md-2 logo-container">
-                                                                            <img className="card-img company-logo" src={olg} />
+                                                                            <img className="card-img company-logo" alt="OLG" src={olg} />
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">
@@ -108,7 +108,7 @@ const Experience = () => {
 
                                                                     <div className="row">
                                                                         <div className="col-md-2 logo-container">
-                                                                            <img className="card-img company-logo" src={dma} />
+                                                                            <img className="card-img company-logo" alt="Digital Media Academy" src={dma} />
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">

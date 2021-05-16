@@ -1,27 +1,29 @@
-#about-me{
+#contact{
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.5);
-    background-image: url(../../pictures/painting_bg.png);
+    background-image: url(../../pictures/code.png);
+    
+    background-position-x: center;
+    background-position-y: 60%;
+
     background-size:cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-  
-    /*OR 100vh here*/
-    height: fit-content; 
+    
+    height:fit-content;
     width: 100vw;
     max-width: 100vw;
 
     padding-top: 164px;
-    /*AND 10vh here*/
-    padding-bottom: 310px;
 
-    overflow-y: auto;
-    overflow-x: hidden;
-    
     color: white;
 }
 
+.contact-row{
+    /* padding-top: 50px; */
+    padding-bottom: 150px;
+}
 
-.icon-size{
-    font-size: 4em;
+.icon-link{
+    color: white;
 }

@@ -4,7 +4,7 @@ import './styles/AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <div id="abt-me-main" className="container">
+        <div id="about-me" className="container">
             <div className="row justify-content-center">
                 <div className="col-md-5 col-sm-12">
                     <div className="row">
