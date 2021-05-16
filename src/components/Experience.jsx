@@ -29,7 +29,7 @@ const Experience = () => {
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">
-                                                                                <h5 className="card-title">Automation Test Engineer (Co-op) @ <a className="link-dark" href="https://www.morneaushepell.com/ca-en">Morneau Shepell</a></h5>
+                                                                                <h5 className="card-title">Automation Test Engineer (Co-op) @ Morneau Shepell</h5>
                                                                                 <h6 className="card-subtitle mb-2">Remote</h6>
                                                                                 <h6 className="card-subtitle mb-2 text-muted">05/2020 - 08/2020</h6>
                                                                                 <p className="card-text tasks">
@@ -70,7 +70,7 @@ const Experience = () => {
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">
-                                                                                <h5 className="card-title">Business Systems Analyst (Co-op) @ <a className="link-dark" href="https://www.olg.ca/en/home.html">OLG</a></h5>
+                                                                                <h5 className="card-title">Business Systems Analyst (Co-op) @ OLG</h5>
                                                                                 <h6 className="card-subtitle mb-2">Toronto, ON</h6>
                                                                                 <h6 className="card-subtitle mb-2 text-muted">05/2019 - 08/2019</h6>
                                                                                 <p className="card-text tasks">
@@ -112,7 +112,7 @@ const Experience = () => {
                                                                         </div>
                                                                         <div className="col-md-9">
                                                                             <div className="card-body">
-                                                                                <h5 className="card-title">Teaching Assistant @ <a className="link-dark" href="https://digitalmediaacademy.org/">Digital Media Academy</a></h5>
+                                                                                <h5 className="card-title">Teaching Assistant @ Digital Media Academy</h5>
                                                                                 <h6 className="card-subtitle mb-2">Toronto, ON</h6>
                                                                                 <h6 className="card-subtitle mb-2 text-muted">06/2018 - 07/2018</h6>
 

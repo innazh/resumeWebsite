@@ -35,19 +35,23 @@ const AboutMe = () => {
                         </div>
                     </div>
 
-                    {/* add column around here for the icons to scale properly */}
-                    <div className="row">
+                    {/* skill icons */}
+                    <div id="icons-row" className="row row-cols-auto justify-content-center">
                         <div className="col">
-                            <p>
-                                <i className="devicon-javascript-plain icon-size" />
-                                <i className="devicon-react-original icon-size" />
-                                <i className="devicon-go-line icon-size" />
-                                <i className="devicon-python-plain icon-size" />
-                                <i className="devicon-github-original icon-size" />
-                                <i className="devicon-docker-plain icon-size" />
-                                <i className="devicon-mysql-plain icon-size" />
-                                <i className="devicon-postgresql-plain icon-size" />
-                            </p>
+                            <i className="devicon-javascript-plain icon-size" />
+                            <i className="devicon-react-original icon-size" />
+                        </div>
+                        <div className="col">
+                            <i className="devicon-go-line icon-size" />
+                            <i className="devicon-python-plain icon-size" />
+                        </div>
+                        <div className="col">
+                            <i className="devicon-github-original icon-size" />
+                            <i className="devicon-docker-plain icon-size" />
+                        </div>
+                        <div className="col">
+                            <i className="devicon-mysql-plain icon-size" />
+                            <i className="devicon-postgresql-plain icon-size" />
                         </div>
                     </div>
                 </div>

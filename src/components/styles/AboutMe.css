@@ -23,5 +23,10 @@
 
 
 .icon-size{
-    font-size: 4em;
+    font-size: 3.3em;
+}
+
+#icons-row>*{
+    padding-left: 0px;
+    padding-right: 0px;
 }
