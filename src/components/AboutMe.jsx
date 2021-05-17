@@ -1,4 +1,4 @@
-import me from '../pictures/me_round.jpeg' // relative path to image 
+import me from '../pictures/me_round.jpeg'
 import './styles/AboutMe.css';
 
 
@@ -25,7 +25,7 @@ const AboutMe = () => {
                     <div className="row">
                         <div className="col">
 
-                            <p>I'm intersted in full-stack development, though I prefer back-end (don't tell anyone).</p>
+                            <p>I'm interested in full-stack development, though I prefer back-end (don't tell anyone).</p>
                         </div>
                     </div>
                     <div className="row">

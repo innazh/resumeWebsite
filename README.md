@@ -16,3 +16,6 @@ https://www.w3schools.com/bootstrap/bootstrap_filters.asp
 TODO: think abt trying to plug in google analytics just for fun (JFF)
 or https://clicky.com/
 or https://get.gaug.es/
+
+
+    NOTES: master is serving the site, get rid of other branches

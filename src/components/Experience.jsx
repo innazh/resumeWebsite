@@ -33,7 +33,7 @@ const Experience = () => {
                                                                                 <h6 className="card-subtitle mb-2">Remote</h6>
                                                                                 <h6 className="card-subtitle mb-2 text-muted">05/2020 - 08/2020</h6>
                                                                                 <p className="card-text tasks">
-                                                                                    <b>Technology:</b> C#, SQL, Selenium, Appium, BrowserStack, Azure DevOps, Swagger, Postman
+                                                                                    <b>Technology:</b> C#, SQL, Selenium, Appium, BrowserStack, Swagger, Postman
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -43,7 +43,8 @@ const Experience = () => {
                                                             <div id="morno-tasks" className="accordion-collapse collapse" aria-labelledby="mornoHeading" data-bs-parent="#morno-exp">
                                                                 <div className="accordion-body">
                                                                     <ul className="tasks">
-                                                                        <li>Automated tests mobile application for Android using Selenium(C#), Appium and BrowserStack</li>
+                                                                        <li>Automated tests for an Android mobile application using Selenium(C#), Appium and BrowserStack</li>
+                                                                        <li>Continuously contributed to a large code base, started developing framework for mobile testing automation</li>
                                                                         <li>Used Swagger and Postman to automate regression testing for API services</li>
                                                                         <li>Wrote and verified SQL queries in SQL Management Studio</li>
                                                                         <li>Updated framework’s documentation by including 10+ features developed in the last 2 years</li>
