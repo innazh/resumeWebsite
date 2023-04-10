@@ -15,6 +15,10 @@
 
     color: white;
 }
+.row.g-0 { /*center the seneca image horizontally*/
+    display: flex;
+    align-items: center;
+  }
 
 #seneca-card{
     color: black;

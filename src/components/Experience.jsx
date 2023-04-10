@@ -2,6 +2,7 @@ import './styles/Experience.css'
 import morno from '../pictures/morno.png'
 import olg from '../pictures/olg.png'
 import dma from '../pictures/dma.png'
+import DigitalOcean from './DigitalOcean'
 
 const Experience = () => {
     return (
@@ -14,7 +15,8 @@ const Experience = () => {
                             <ul className="timeline">
                                 <div className="row">
                                     <div className="col">
-                                        {/* 3 rows below for 3 job experiences */}
+                                        {/* 4 rows below for 4 job experiences */}
+                                        <DigitalOcean></DigitalOcean>
                                         <div className="row">
                                             <div className="col">
                                                 <li className="ul-li-child">
@@ -118,7 +120,7 @@ const Experience = () => {
                                                                                 <h6 className="card-subtitle mb-2 text-muted">06/2018 - 07/2018</h6>
 
                                                                                 <p className="card-text tasks"><b>Technology:</b> Java, Processing
-                                                                                     <br />
+                                                                                    <br />
                                                                                     <b>Other skills:</b> teamwork, great communication skills, debugging</p>
                                                                             </div>
                                                                         </div>
