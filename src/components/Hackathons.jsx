@@ -13,7 +13,7 @@ const Hackathons = () => {
             <div className="row justify-content-center">
                 <div className="col">
                     <h2 style={{ fontSize: '60px' }}>I love participating in hackathons!</h2>
-                    <desc>(some of them are clickable)</desc>
+                    <p>(some of them are clickable)</p>
                 </div>
             </div>
             <div className="row justify-content-center">

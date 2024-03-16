@@ -56,7 +56,21 @@ ul.timeline:before {
 
 .tasks{
     text-align: left;
+    font: black;
 }
+
+ul.tasks{
+list-style-type: none;
+}
+
+ul.tasks li::before {
+    content: "•";
+    font-size: x-large;;
+    color: black; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 
 .company-logo{
     /* padding: 10px 10px 10px 10px; */

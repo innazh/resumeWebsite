@@ -53,11 +53,11 @@ const AboutMe = () => {
                     <div id="icons-row" className="row row-cols-auto justify-content-center">
                         <div className="col">
                             <i className="devicon-github-original-wordmark icon-size" />
-                            <i class="devicon-grafana-original-wordmark icon-size"></i>
+                            <i className="devicon-grafana-original-wordmark icon-size"></i>
                         </div>
                         <div className='col'>
-                            <i class="devicon-prometheus-original-wordmark icon-size"></i>
-                            <i class="devicon-linux-plain icon-size"></i>
+                            <i className="devicon-prometheus-original-wordmark icon-size"></i>
+                            <i className="devicon-linux-plain icon-size"></i>
                         </div>
                         <div className="col">
                             <i className="devicon-terraform-plain-wordmark icon-size" />

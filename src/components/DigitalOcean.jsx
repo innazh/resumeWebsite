@@ -3,7 +3,7 @@ import digitalocean from '../pictures/do.png'
 const DigitalOcean = () => {
     return (
         <>
-            {/* <div className="row">
+            <div className="row">
                 <div className="col">
                     <li className="ul-li-child">
                         <div className="accordion" id="do2-exp">
@@ -19,9 +19,9 @@ const DigitalOcean = () => {
                                                 <div className="card-body">
                                                     <h5 className="card-title">Software Engineer II @ DigitalOcean</h5>
                                                     <h6 className="card-subtitle mb-2">Remote</h6>
-                                                    <h6 className="card-subtitle mb-2 text-muted">03/2022</h6>
+                                                    <h6 className="card-subtitle mb-2 text-muted">03/2022 - 05/2023</h6>
                                                     <p className="card-text tasks">
-                                                        <b>Technology:</b> Go, Grafana, Prometheus, SQL, Docker, Concourse, GoCD, Terraform, Ansible
+                                                        <b>Technology:</b> Go, JavaScript, Grafana, Prometheus, Highcharts JS, SQL, Docker, Concourse, GoCD, Terraform, Ansible
                                                     </p>
                                                 </div>
                                             </div>
@@ -35,11 +35,16 @@ const DigitalOcean = () => {
                                                 Developed a POC company‑wide data analytics tool reading from Kafka to TimescaleDB
                                             </li>
                                             <li>
-                                                Handled services responsible for customer billing data
+                                                Handled services responsible for customer billing data and made the transition to improved metrics for billing PaaS services that saw an increase in revenue from about 10% of its customers
                                             </li>
-                                            <li>Used terafform to change resource allocation for instances and to provide new instances, ran ansible playbooks</li>
                                             <li>
-                                                Assisted in migration from GoCD to Concourse CI
+                                                Used terafform to change resource allocation applications and provide new instances, ran ansible playbooks
+                                            </li>
+                                            <li>
+                                                Migrated pipelines from GoCD to Concourse CI
+                                            </li>
+                                            <li>
+                                                Implemented key features for a replacement graphing solution rendering multiple thousands dashboard renders per minute from every customer product page. The new solution prevents a lot of potential exploits and allows for bigger customization in the future.
                                             </li>
                                         </ul>
                                     </div>
@@ -48,7 +53,7 @@ const DigitalOcean = () => {
                         </div>
                     </li>
                 </div>
-            </div> */}
+            </div>
             <div className="row">
                 <div className="col">
                     <li className="ul-li-child">

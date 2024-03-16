@@ -3,6 +3,7 @@ import morno from '../pictures/morno.png'
 import olg from '../pictures/olg.png'
 import dma from '../pictures/dma.png'
 import DigitalOcean from './DigitalOcean'
+import ZestyAI from './ZestyAI'
 
 const Experience = () => {
     return (
@@ -16,6 +17,7 @@ const Experience = () => {
                                 <div className="row">
                                     <div className="col">
                                         {/* 4 rows below for 4 job experiences */}
+                                        <ZestyAI></ZestyAI>
                                         <DigitalOcean></DigitalOcean>
                                         <div className="row">
                                             <div className="col">
