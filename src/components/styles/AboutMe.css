@@ -33,11 +33,12 @@
 
 .icon-size {
     font-size: 3.3em;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #icons-row>* {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -64,8 +65,7 @@
 }
 
 .icons-container {
-    padding-top: 2rem;
-    margin: 0px auto;
+    margin: 4rem auto;
     padding: 10px;
 }
 
